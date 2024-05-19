@@ -65,3 +65,10 @@ async def copy(ctx, *urls):
             print(tk.END, f"{SUCCESS} Video copyied: {url}")
         except Exception as e:
             print(f"{ERROR} {str(e)}")
+
+commands = {
+    'copy': copy,
+    'prefix': prefix,
+    'test': test,
+    'search': search
+}
