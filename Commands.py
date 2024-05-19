@@ -1,5 +1,20 @@
 # commands.py
 from discord.ext import commands
+import discord
+import asyncio
+import requests
+import subprocess
+import os
+import random
+from pytube import YouTube
+from bs4 import BeautifulSoup
+import json
+from discord.ext import tasks
+from datetime import datetime, timedelta
+from colorama import Fore, Style
+from discord.ext import commands,tasks
+from PIL import Image, ImageDraw, ImageFont
+from pystyle import Colorate, Colors, Center, Box
 
 def setup(selfbot):
     @selfbot.command(name="search", description="Lets you search")
