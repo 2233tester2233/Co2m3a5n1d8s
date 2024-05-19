@@ -4,6 +4,8 @@ import discord
 import asyncio
 import requests
 import subprocess
+import urllib
+
 import os
 import random
 from pytube import YouTube
