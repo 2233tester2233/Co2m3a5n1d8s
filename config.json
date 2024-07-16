@@ -1,4 +1,6 @@
 {
     "token": "",
-    "prefix": ""
+    "prefix": "",
+    "manual_tok": "",
+    "auto_tok": "",
 }
